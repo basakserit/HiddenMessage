@@ -15,7 +15,7 @@ namespace HiddenMessage
 
         static bool ShowMenu()
         {
-            Console.Clear();
+            //Console.Clear();
             Console.WriteLine("## Hidden Words ###");
             Console.WriteLine("1 - Encryption");
             Console.WriteLine("2 - Decryption");
@@ -31,17 +31,15 @@ namespace HiddenMessage
             switch (selection)
             {
                 case "1":
-                    EncryptText();
-                    return false;
+                    return EncryptText();
                 case "2":
-                    DecryptText();
-                    return false;
+                    return DecryptText();
                 default:
                     return true;
             }
         }
 
-        static void EncryptText()
+        static bool EncryptText()
         {
             WordOperations wo = new WordOperations();
 
@@ -51,9 +49,11 @@ namespace HiddenMessage
             wo.WordWitoutEncrytion = text;
 
             Console.WriteLine("Encrypted message > " + wo.EncryptWord());
+
+            return ShowExitMenu();
         }
 
-        static void DecryptText()
+        static bool DecryptText()
         {
             WordOperations wo = new WordOperations();
 
@@ -63,6 +63,18 @@ namespace HiddenMessage
             wo.WordWitoutEncrytion = text;
 
             Console.WriteLine("Decrypted message > " + wo.DecryptWord());
+
+            return ShowExitMenu();
+        }
+
+        static bool ShowExitMenu()
+        {
+            Console.WriteLine("\nDo you want to exit? (y|n) > ");
+
+            var choice = Console.ReadLine();
+            var isExit = choice.ToLower().Equals("y") ? false : true;
+
+            return isExit;
         }
 
     }

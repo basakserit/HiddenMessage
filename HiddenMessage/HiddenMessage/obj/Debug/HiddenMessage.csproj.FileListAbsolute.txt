@@ -3,3 +3,8 @@
 /Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/bin/Debug/HiddenMessage.pdb
 /Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/obj/Debug/HiddenMessage.exe
 /Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/obj/Debug/HiddenMessage.pdb
+/Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/HiddenMessage/bin/Debug/HiddenMessage.exe
+/Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/HiddenMessage/bin/Debug/HiddenMessage.pdb
+/Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/HiddenMessage/obj/Debug/HiddenMessage.csprojAssemblyReference.cache
+/Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/HiddenMessage/obj/Debug/HiddenMessage.exe
+/Users/basak.serit/Test Projects/HiddenMessage/HiddenMessage/HiddenMessage/obj/Debug/HiddenMessage.pdb
